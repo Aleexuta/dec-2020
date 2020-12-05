@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>34a5014b-e796-49ef-9919-7cf5fe752bdd</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>p1.py</StartupFile>
+    <StartupFile>p2.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -22,6 +22,12 @@
   </PropertyGroup>
   <ItemGroup>
     <Compile Include="p1.py" />
+    <Compile Include="p2.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="p3.py">
+      <SubType>Code</SubType>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Content Include="input.txt" />
